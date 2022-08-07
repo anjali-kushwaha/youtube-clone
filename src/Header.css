@@ -1,0 +1,51 @@
+.header {
+    /*align element in one line*/
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    /*fixing the postion of header*/
+    position: sticky;
+    /*attach to the top*/
+    top: 0;
+    /*make it to infinity giving limit on thing will go beyound z */
+    z-index: 100;
+    background-color: white;
+    /*if we dont do upper 3 steps sticky navbar will be  transparent*/
+}
+
+.header__logo{
+    height: 25px;
+    object-fit: contain;
+}
+
+.header__input{
+    display:flex;
+    align-items: center;
+    width: 40%;
+    border:1px solid lightgray ; 
+}
+
+.header__icon{
+    margin-right: 8px;
+}
+
+.header__inputButton{
+    width: 50px !important;
+    background-color: #fafafa;
+    border-left:1x solid lightgray ;
+    color: gray;
+}
+
+.header__icons{
+    display: flex;
+    align-self: center;
+}
+
+/*
+header__input direct child input
+*/
+.header__input >input{
+    flex :1;
+    border: none;
+}

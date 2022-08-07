@@ -1,0 +1,13 @@
+.sidebar {
+    /* it'll take only 20%*/
+    flex: 0.2;
+}
+
+/*for horizontal line*/
+.sidebar >hr {
+    height: 1px;
+    border: 0;
+    background-color: lightgray;
+    margin-top: 10px;
+    margin-bottom: 10px;
+} 
